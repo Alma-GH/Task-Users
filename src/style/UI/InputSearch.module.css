@@ -1,0 +1,34 @@
+.searchInput{
+    display: flex;
+    background-color: #5A5C66;
+}
+
+.searchInput input{
+    padding: 18px 26px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    color: lightgrey;
+    
+    
+    
+}
+
+.searchInput input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #B2B7BF;
+    line-height: 19px;
+}
+.searchInput .btn{
+    width: 69px;
+}
+
+.searchInput .btn img{
+    height: 21px;
+    width: 21px;
+}

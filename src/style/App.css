@@ -1,0 +1,44 @@
+
+html{
+  font-size: 16px;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.block{
+  width: 1078px;
+  margin: 15px 0;
+}
+
+.search{
+  width: 631px;
+  height: 52px;
+}
+
+.pagination{
+  height: 60px;
+}
+
+
